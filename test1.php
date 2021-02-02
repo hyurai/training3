@@ -2,6 +2,7 @@
 <?php
   $nummers = array(19,20,21,null);
   //配列に数字を代入するtest
+  echo $nummers[0];
   //$nummbersという配列の0番目の要素を出力する
   $nummers[] = 22;
   //$nummbersという配列に新しい要素を最後の要素に代入する
