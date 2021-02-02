@@ -10,7 +10,4 @@ $scores = array(
    echo $scores['国語']
    //上書きをしたデータを出力する
    //差分test
-
-
-
 ?> 
