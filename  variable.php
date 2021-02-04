@@ -1,4 +1,5 @@
 <?php 
+
 $numbers = array(19,20,21,null);
 //配列に数字を代入するtest
 echo $numbers[0];
@@ -20,6 +21,13 @@ if ($numbers[3] == null){
   echo '$nummersの3番目の要素には数字が入っています';
   //$nummbersという配列の三番目の要素がnullではない場合出力されます
 }
+
+$string = array('macOS','Windows','Linux');
+//文字列型
+
+echo $string[0];
+
+
 
 
 ?> 
