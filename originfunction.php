@@ -1,4 +1,8 @@
 <?php
+
+$theTopSide = 10;
+$theBottomSide = 20;
+$height = 5;
 function beforeTrapezoid($theTopSide,$theBottomSide,$height){
     //beforeTrapezoidを定義し、引数をとる
     return ($theTopSide + $theBottomSide) * $height / 2;
