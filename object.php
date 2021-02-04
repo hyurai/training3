@@ -15,6 +15,8 @@ class Human{
     }
     }
 echo Human::short();
+//privateを使い外部から呼び出そうとするとエラーが起きる。privateを使うには_coonstructを使わないと呼び出せない気がする
+//つまり後から変更できないようにする必要があるメソッドなどでprivateを使つ必要がある
 
 $male = new Human();
 //$maleにHumanクラスのインスタンスを代入する
