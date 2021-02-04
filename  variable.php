@@ -27,6 +27,7 @@ $null = null;
 //文字列型
 
 echo $string;
+echo $null;
 
 
 
