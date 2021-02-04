@@ -22,10 +22,11 @@ if ($numbers[3] == null){
   //$nummbersという配列の三番目の要素がnullではない場合出力されます
 }
 
-$string = array('macOS','Windows','Linux');
+$string = "macOS";
+$null = null;
 //文字列型
 
-echo $string[0];
+echo $string;
 
 
 
