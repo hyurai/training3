@@ -1,9 +1,9 @@
 <?php
 
 
-function beforeTrapezoid($theTopSide = 10,$theBottomSide = 20,$height = 5){
+function beforeTrapezoid($Top = 10,$Bottom = 20,$height = 5){
     //beforeTrapezoidを定義し、引数をとる
-    return ($theTopSide + $theBottomSide) * $height / 2;
+    return ($Top + $Bottom) * $height / 2;
     //これらの計算式を戻り値とする
     }
 
